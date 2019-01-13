@@ -1,4 +1,4 @@
-
+package elements;
 public class Link {
 	Dot a, b;
 

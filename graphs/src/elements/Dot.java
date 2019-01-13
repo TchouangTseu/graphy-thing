@@ -1,3 +1,4 @@
+package elements;
 
 public class Dot {
 	float x, y;
