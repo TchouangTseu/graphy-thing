@@ -2,16 +2,17 @@ package elements;
 
 public class GraphConnection {
 	Graph a, b;
+	Link l;
+	
+	public GraphConnection() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	public GraphConnection(Graph a, Graph b) {
 		super();
 		this.a = a;
 		this.b = b;
-	}
-
-	public GraphConnection() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Graph getA() {
@@ -30,9 +31,17 @@ public class GraphConnection {
 		this.b = b;
 	}
 
+	public Link getL() {
+		return l;
+	}
+
+	public void setL(Link l) {
+		this.l = l;
+	}
+
 	@Override
 	public String toString() {
-		return "GraphConnection [a=" + a + ", b=" + b + "]";
+		return "GraphConnection [a=" + a + ", b=" + b + ", l=" + l + "]";
 	}
 
 }
