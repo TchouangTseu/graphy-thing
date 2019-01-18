@@ -1,4 +1,5 @@
 import processing.core.PApplet;
+import Dimensions.Dimensions;
 
 
 public class graphMain extends PApplet{
@@ -11,7 +12,7 @@ public class graphMain extends PApplet{
 	}
 	
 	public void settings(){
-		size(1280, 720);
+		size(Dimensions.width, Dimensions.height);
 	}
 
 	public void setup(){

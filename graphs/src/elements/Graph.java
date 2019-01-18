@@ -7,16 +7,16 @@ import java.util.ArrayList;
 //un network est composé de sous-graphs (classe encore en cours d'écriture)
 
 public class Graph {
-	
-	public Graph() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 
 	int nbDots, nbLinks;
 	int numId;//pour l'adressage
 	ArrayList<Dot> dots;
 	ArrayList<Link> links;
+	
+	public Graph() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Graph(int numId, int nbDots, int nbLinks){
 		this.numId = numId;
