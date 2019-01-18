@@ -1,7 +1,14 @@
 package elements;
 public class Link {
+	
+
 	Dot a, b;
 
+	public Link() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Link(Dot a, Dot b) {
 		super();
 		this.a = a;
@@ -51,6 +58,11 @@ public class Link {
 		} else if (!b.equals(other.b))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Link [a=" + a + ", b=" + b + "]";
 	}
 
 }

@@ -4,6 +4,7 @@ public class Message {
 	
 	private Dot sender, receiver;
 	private String information;
+
 	
 	public Message() {
 		sender = null;
@@ -40,6 +41,11 @@ public class Message {
 
 	public void setInformation(String information) {
 		this.information = information;
+	}
+
+	@Override
+	public String toString() {
+		return "Message [sender=" + sender + ", receiver=" + receiver + ", information=" + information + "]";
 	}
 	
 	

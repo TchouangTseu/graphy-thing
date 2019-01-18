@@ -4,10 +4,15 @@ import java.util.ArrayList;
 //Un graph est un ensemble de points (et un réseau sera composé de noeuds)
 //et de liens entre ces points
 //il doit toujours exister un chemin entre n'importe quels points
-//un graph est composé de sous-graphs (classe encore en cours d'écriture)
+//un network est composé de sous-graphs (classe encore en cours d'écriture)
 
 public class Graph {
 	
+	public Graph() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	int nbDots, nbLinks;
 	int numId;//pour l'adressage
 	ArrayList<Dot> dots;
@@ -62,6 +67,12 @@ public class Graph {
 
 	public void setLinks(ArrayList<Link> links) {
 		this.links = links;
+	}
+
+	@Override
+	public String toString() {
+		return "Graph [nbDots=" + nbDots + ", nbLinks=" + nbLinks + ", numId=" + numId + ", dots=" + dots + ", links="
+				+ links + "]";
 	}
 	
 

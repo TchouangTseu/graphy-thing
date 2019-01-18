@@ -1,7 +1,13 @@
 package elements;
 
 public class Dot {
+
 	float x, y;
+	
+	public Dot() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Dot(float x, float y) {
 		super();
@@ -46,6 +52,11 @@ public class Dot {
 		if (Float.floatToIntBits(y) != Float.floatToIntBits(other.y))
 			return false;
 		return true;
+	}
+
+	@Override
+	public String toString() {
+		return "Dot [x=" + x + ", y=" + y + "]";
 	}
 	
 	

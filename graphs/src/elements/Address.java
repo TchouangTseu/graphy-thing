@@ -8,6 +8,11 @@ package elements;
 
 public class Address {
 	
+	public Address() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	private String address;
 
 	public Address(String address) {
@@ -21,6 +26,11 @@ public class Address {
 
 	public void setAddress(String address) {
 		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Address [address=" + address + "]";
 	}
 	
 

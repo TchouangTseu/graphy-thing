@@ -43,6 +43,11 @@ public class Node {
 		this.address = address;
 	}
 
+	@Override
+	public String toString() {
+		return "Node [dot=" + dot + ", address=" + address + ", destinations=" + destinations + "]";
+	}
+
 	
 
 }
