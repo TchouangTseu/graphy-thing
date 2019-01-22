@@ -6,6 +6,7 @@ import elements.Dot;
 import elements.Link;
 
 public class LinksGenerator {
+	//le minimum pour une liste de dots est de 3
 	public ArrayList<Link> getLinksForDots (ArrayList<Dot> dots){
 		ArrayList<Link> res = new ArrayList<Link>();
 		//ArrayList<Dot> linked = new ArrayList<Dot>();
