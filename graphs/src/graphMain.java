@@ -1,5 +1,5 @@
 import processing.core.PApplet;
-import Dimensions.Dimensions;
+import variablesGlobales.Dimensions;
 
 
 public class graphMain extends PApplet{

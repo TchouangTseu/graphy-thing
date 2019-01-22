@@ -1,10 +1,9 @@
 package elements;
 import java.util.ArrayList;
 
-//Un graph est un ensemble de points (et un réseau sera composé de noeuds)
+//Un graph est un ensemble de points 
 //et de liens entre ces points
 //il doit toujours exister un chemin entre n'importe quels points
-//un network est composé de sous-graphs (classe encore en cours d'écriture)
 
 public class Graph {
 
@@ -27,6 +26,10 @@ public class Graph {
 		links = new ArrayList<Link>();
 		
 		
+	}
+	
+	public Dot getRandomDot() {
+		return dots.get((int) Math.random()*dots.size());
 	}
 
 	public int getNbDots() {

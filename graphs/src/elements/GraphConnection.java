@@ -13,6 +13,7 @@ public class GraphConnection {
 		super();
 		this.a = a;
 		this.b = b;
+		this.l =new Link(a.getRandomDot(), b.getRandomDot());
 	}
 
 	public Graph getA() {

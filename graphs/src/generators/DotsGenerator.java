@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import elements.Dot;
 import exceptions.ExceptionNbDots;
-import Dimensions.Dimensions;
+import variablesGlobales.Dimensions;
 
 public class DotsGenerator {
 	/*en raison de la manière de créer les connections entre
