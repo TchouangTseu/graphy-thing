@@ -1,5 +1,6 @@
 package interfaces;
 
+
 /*doit gérer toutes les questions liées à l'affichage
  * soit, non exhaustivement :
  * 
@@ -24,7 +25,7 @@ package interfaces;
 
 
 public interface IDrawable {
-
+	
 	public void draw();
 	
 }
