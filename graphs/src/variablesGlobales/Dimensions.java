@@ -7,5 +7,7 @@ public class Dimensions {
 	
 	public static int MAX_DOTS_PER_GRAPH = 5;
 	public static int NB_GRAPHS = 10;
+	
+	public static float SIZE_DOT = 10;
 
 }
